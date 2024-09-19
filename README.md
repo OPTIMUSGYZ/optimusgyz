@@ -36,5 +36,8 @@ https://github.com/varadbhogayata/varadbhogayata.github.io
 
 ## Activity 5
 ### Repository (Recent Projects using JS)
+![](assets/img/A5_Repo.jpg)
 
 ### Recent Projects Section of Website
+![](assets/img/A5_Website_1.jpg)
+![](assets/img/A5_Website_2.jpg)
