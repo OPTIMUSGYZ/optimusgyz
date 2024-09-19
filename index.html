@@ -348,120 +348,19 @@
     </section>
 
     <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
-      <div class="container">
-        <div class="row">
-
-          <!-- DigiVoice -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Spoken Digits Icon" src="/assets/img/Spoken_Digits_Icon.jpg" style="height: 100%; width: 100%" class="activator" />
+      <!-- Fourth Section: Projects -->
+      <section id="projects" class="section scrollspy">
+          <h3 class="page-title white-text teal center-align">Recent Projects</h3>
+          <div class="container">
+              <!-- New div for dynamic project loading -->
+              <div id="dynamic-projects-container" class="row center-align">
+                  <!-- Projects will be injected here by JavaScript -->
               </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">DigiVoice<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  An app for voice recognition of numbers using ML
-                </p>
+              <div class="center-align">
+                  <button id="load-more-btn" class="btn waves-effect teal">Load More</button>
               </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, Pytorch, NumPy, Git </li>
-                  <li> UI using Qt for <b>Python</b> </li>
-                  <li> CNN model using <b>PyTorch</b> in <b>Python</b> </li>
-                  <li> Audio processing using <b>Python</b> </li>
-                  <li> Mel Spectrogram generation using <b>Python</b> </li>
-                  <li> Version control using <b>Git</b> </li>
-                  <li> Development done on macOS </li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/OPTIMUSGYZ/Spoken-Digits"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
           </div>
-
-          <!-- Bullet Dodging Game on DE1-SOC Board -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="DE1-SOC Board" src="/assets/img/DE1_SOC.webp" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Game on DE1-SOC Board <i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A dodge the bullets game using keyboard input on DE1-SOC board
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> C++, ARM Assembly </li>
-                  <li> Input with keyboard using interrupts, service routines written in <b>C++</b> </li>
-                  <li> Output using VGA with buffers, memory read/writes in <b>C++</b> </li>
-                  <li> Game logic written in <b>C++</b> </li>
-                  <li> Version control using <b>Git</b> </li>
-                  <li> Development done on Windows </li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/OPTIMUSGYZ/ECE243_Final_P"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Findr -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of web app" src="/assets/img/FindR_Logo.jpg"
-                style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">FindR<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A mapper with various built-in maps
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, Flask, SQLAlchemy, Postgresql, Python </li>
-                  <li> UI using GTK written in <b>C++</b> </li>
-                  <li> A* route finding written in <b>C++</b> </li>
-                  <li> Loading maps utilize multithreading written in <b>C++</b> </li>
-                  <li> Version control using <b>Git</b> </li>
-                  <li> Development done on Linux </li>
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/OPTIMUSGYZ/ECE297-Findr"
-                    target="_blank" data-position="top" data-tooltip="View Source (Private)"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- ************* -->
-        </div>
-      </div>
-    </section>
+      </section>
 
     <!-- Fifth Section: Skills -->
     <section id="skills" class="section scrollspy">
@@ -488,7 +387,7 @@
                 <img alt="" src="/assets/img/ARM_Logo.jpg" class="responsive-img" />ARM Assembly
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/SV_Logo.png" class="responsive-img" />SystemVerilog
+                <img alt="" src="/assets/img/SV_Logo.svg" class="responsive-img" />SystemVerilog
               </div>
 
               <div class="col s4 m2">
@@ -579,7 +478,7 @@
       </div>
     </section>
 
-    <!-- Seventh Section: Education -->
+    <!-- Sixth Section: Education -->
     <section id="education" class="section scrollspy">
       <h3 class="page-title white-text teal">Education</h3>
       <div class="container">
@@ -614,7 +513,7 @@
       </div>
     </section>
 
-    <!-- Eighth Section: Places Traveled -->
+    <!-- Seventh Section: Places Traveled -->
     <section id="places" class="section scrollspy">
       <h3 class="page-title white-text teal">Places Travelled</h3>
       <div class="container">
@@ -624,7 +523,7 @@
       </div>
     </section>
 
-    <!-- Ninth Section: Contact -->
+    <!-- Eighth Section: Contact -->
     <section id="contact" class="section scrollspy full-height">
       <h3 class="page-title white-text teal">Contact</h3>
       <div class="container">
@@ -668,6 +567,109 @@
     });
   </script>
 
+    <script type="text/javascript">
+
+        const list_of_projects = [
+            {
+                title: "DigiVoice",
+                image: "/assets/img/Spoken_Digits_Icon.jpg",
+                description: "An app for voice recognition of numbers using ML",
+                tools: "Python, Pytorch, NumPy, Git",
+                link: "https://github.com/OPTIMUSGYZ/Spoken-Digits",
+                details: [
+                    "2022/07 - 2022/08",
+                    "UI using Qt for <b>Python</b>",
+                    "CNN model using <b>PyTorch</b> in <b>Python</b>",
+                    "Audio processing using <b>Python</b>",
+                    "Mel Spectrogram generation using <b>Python</b>",
+                    "Version control using <b>Git</b>",
+                    "Development done on macOS"
+                ],
+                start_date: 202207 // in format YYYYMM
+            },
+            {
+                title: "FindR",
+                image: "/assets/img/FindR_Logo.jpg",
+                description: "A mapper with various built-in maps",
+                tools: "HTML, CSS, Bootstrap, Flask, SQLAlchemy, Postgresql, Python",
+                link: "https://github.com/OPTIMUSGYZ/ECE297-Findr",
+                details: [
+                    "2022/01 - 2022/04",
+                    "UI using GTK written in <b>C++</b>",
+                    "A* route finding written in <b>C++</b>",
+                    "Loading maps utilize multithreading written in <b>C++</b>",
+                    "Version control using <b>Git</b>",
+                    "Development done on Linux"
+                ],
+                start_date: 202201 // in format YYYYMM
+            },
+            {
+                title: "Game on DE1-SOC Board",
+                image: "/assets/img/DE1_SOC.webp",
+                description: "A dodge the bullets game using keyboard input on DE1-SOC board",
+                tools: "C++, ARM Assembly",
+                link: "https://github.com/OPTIMUSGYZ/ECE243_Final_P",
+                details: [
+                    "2022/03 - 2022/04",
+                    "Input with keyboard using interrupts, service routines written in <b>C++</b>",
+                    "Output using VGA with buffers, memory read/writes in <b>C++</b>",
+                    "Game logic written in <b>C++</b>",
+                    "Version control using <b>Git</b>",
+                    "Development done on Windows"
+                ],
+                start_date: 202203 // in format YYYYMM
+            }
+        ];
+
+        function createProjectHTML(project) {
+            return `
+                <div class="col s12 m6 l4">
+                  <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img alt="${project.title} Icon" src="${project.image}" style="height: 100%; width: 100%" class="activator" />
+                    </div>
+                    <div class="card-content left-align">
+                      <span class="card-title activator teal-text hoverline">${project.title}<i
+                          class="mdi-navigation-more-vert right"></i></span>
+                      <p>${project.description}</p>
+                    </div>
+                    <div class="card-reveal left-align">
+                      <span class="card-title grey-text"><small>Details</small><i
+                          class="mdi-navigation-close right"></i></span>
+                      <ul>
+                        ${project.details.map(acc => `<li>${acc}</li>`).join('')}
+                      </ul>
+                      <div class="card-action">
+                        <a aria-label="Visit the GitHub repo for project" href="${project.link}" target="_blank"
+                          class="btn-floating btn-large waves-effect waves-light blue-grey"><i class="fa fa-github"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            `;
+        }
+
+        const sortedProjects = list_of_projects.sort((a, b) => new Date(b.start_date) - new Date(a.start_date));
+
+        function displayLatestProject() {
+            const projectContainer = document.getElementById('dynamic-projects-container');
+            projectContainer.innerHTML = createProjectHTML(sortedProjects[0]);
+            projectContainer.style.display = "flex";
+            projectContainer.style.justifyContent = "center";
+        }
+
+        function loadAllProjects() {
+            const projectContainer = document.getElementById('dynamic-projects-container');
+            projectContainer.innerHTML = '';
+            sortedProjects.forEach(project => {
+                projectContainer.innerHTML += createProjectHTML(project);
+            });
+        }
+
+        document.getElementById('load-more-btn').addEventListener('click', loadAllProjects);
+
+        document.addEventListener('DOMContentLoaded', displayLatestProject);
+    </script>
 
   <!-- jQuery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
