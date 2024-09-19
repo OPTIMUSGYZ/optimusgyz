@@ -22,8 +22,10 @@ https://github.com/varadbhogayata/varadbhogayata.github.io
 
 ## Activity 3
 ### Repository (Website Theme Updates)
+![](assets/img/A3_Repo.jpg)
 
 ### Home Page of Website
+![](assets/img/A3_Website.jpg)
 
 ## Activity 4
 ### Repository (Places Traveled)
