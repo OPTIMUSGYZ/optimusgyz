@@ -15,8 +15,10 @@ https://github.com/varadbhogayata/varadbhogayata.github.io
 
 ## Activity 2
 ### Repository (Personal Information Updates)
+![](assets/img/A2_Repo.jpg)
 
 ### Home Page of Deployed Website
+![](assets/img/A2_Website.jpg)
 
 ## Activity 3
 ### Repository (Website Theme Updates)
