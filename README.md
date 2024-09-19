@@ -29,8 +29,10 @@ https://github.com/varadbhogayata/varadbhogayata.github.io
 
 ## Activity 4
 ### Repository (Places Traveled)
+![](assets/img/A4_Repo.jpg)
 
 ### Places Traveled Section of Website
+![](assets/img/A4_Website.jpg)
 
 ## Activity 5
 ### Repository (Recent Projects using JS)
